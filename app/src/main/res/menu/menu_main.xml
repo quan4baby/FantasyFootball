@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.fantasyfootball.MainActivity">
+    <item
+        android:id="@+id/action_add"
+        android:title="@string/add"
+        app:showAsAction="always"
+        android:onClick="add"/>
+    <item
+        android:id="@+id/action_team_totals"
+        android:title="@string/team_totals"
+        app:showAsAction="always"
+        android:onClick="teamTotals"/>
+</menu>
