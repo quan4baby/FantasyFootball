@@ -11,5 +11,5 @@
         android:id="@+id/action_team_totals"
         android:title="@string/team_totals"
         app:showAsAction="always"
-        android:onClick="teamTotals"/>
+        android:onClick="getMessage"/>
 </menu>
